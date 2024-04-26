@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#squidward-container {
+    flex: 1;
+    text-align: center;
+}
+
+#squidward-container img {
+    width: 300px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+.options button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#result-container {
+    flex: 1;
+    display: none;
+}
+
+#result {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#restart-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
